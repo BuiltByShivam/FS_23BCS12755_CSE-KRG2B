@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Tiwari | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/36ddcc3288.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-text">S</div>
+      <p>Shivam</p>
+      <span>Web Developer</span>
+    </div>
+    <nav class="nav">
+      <a href="#hero" onclick="showSection('hero-section')">Home</a>
+      <a href="#about" onclick="showSection('about-section')">About</a>
+      <a href="#skills" onclick="showSection('skills-section')">My Skills</a>
+      <a href="#projects" onclick="showSection('projects-section')">Projects</a>
+      <a href="#contact" onclick="showSection('contact-section')">Contact</a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/shivamkrtiwari" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/builtbyshivam" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <main class="hero-section section" id="hero-section">
+    <div class="hero-text">
+      <p class="code">&lt;h1&gt;</p>
+      <h1>Hi,<br />I'm <span class="name">Shivam</span>,<br />web developer</h1>
+      <p class="code">&lt;/h1&gt;</p>
+      <p class="subtitle">&lt;p&gt; Full Stack Learner / Cloud Computing Enthusiast &lt;/p&gt;</p>
+      <a href="#contact" class="btn" onclick="showSection('contact-section')">Contact me!</a>
+    </div>
+  </main>
+
+  <!-- About Section -->
+  <section class="about-section section" id="about-section" style="display: none;">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Shivam Kumar Tiwari</strong>, currently pursuing B.Tech in Computer Science Engineering at Chandigarh University (2023–2027). My interests lie in full‑stack development, cloud computing, and building practical solutions that address real‑world needs.</p>
+      <p>I have completed projects such as <strong>AISM</strong>, <strong>College Nest</strong>, and <strong>Future Gaze</strong>. I'm proficient in Python, C++, Java, HTML, CSS, JavaScript and enjoy solving complex problems through code.</p>
+    
+      <h3 style="margin-top: 30px; color: #00e5ff;">Education</h3>
+      <ul style="list-style: none; padding: 0; margin-top: 10px;">
+        <li style="margin-bottom: 20px;">
+          <strong>Bachelor of Technology (B.Tech), Computer Science & Engineering</strong><br>
+          Chandigarh University<br>
+          CGPA: 8.56/10<br>
+          <small style="color: #888;">2023 – 2027</small>
+        </li>
+        <li style="margin-bottom: 20px;">
+          <strong>Senior Secondary (XII), CBSE – Science</strong><br>
+          Kendriya Vidyalaya, Pushp Vihar<br>
+          Percentage: 92.00%<br>
+          <small style="color: #888;">2022</small>
+        </li>
+        <li>
+          <strong>Secondary (X), CBSE</strong><br>
+          Kendriya Vidyalaya, Pushp Vihar<br>
+          Percentage: 89.60%<br>
+          <small style="color: #888;">2020</small>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section section" id="skills-section" style="display: none;">
+    <div class="skills-content">
+      <h2>My Skills</h2>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Cloud Computing (AWS / GCP basics)</li>
+        <li>Full-Stack Development</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section section" id="projects-section" style="display: none;">
+    <div class="projects-content">
+      <h2>My Projects</h2>
+
+      <div class="project">
+        <h3>AISM (Advance Integrated Safety Monitoring Device)</h3>
+        <p><strong>Mar 2025 - Apr 2025</strong></p>
+        <p>Developed a multi-functional safety device integrating hazard alerter sensors and CCTV monitoring.</p>
+        <p><strong>Tools:</strong> Arduino Uno, ESP32, Ultrasonic Sensor, Gas Sensor, Fire Sensor</p>
+      </div>
+
+      <div class="project">
+        <h3>Future Gaze (AI-Powered Career Path Predictor App)</h3>
+        <p><strong>Apr 2025 - Present</strong></p>
+        <p>Leading the development of Future Gaze, an AI-driven mobile app aimed at helping students and young professionals predict potential career paths based on their skills, industry trends, and personal preferences.</p>
+      </div>
+
+      <div class="project">
+        <h3>College Nest</h3>
+        <p><strong>Apr 2025 - Present</strong></p>
+        <p>Developing an interactive college information website featuring a clickable campus map, tab-based navigation, and department/event details using a local dataset.</p>
+        <p>The site is also being extended to include upcoming college-specific events, ensuring students never miss important opportunities.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section section" id="contact-section" style="display: none;">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <p>I'm always open to new opportunities, collaborations, or just a good tech conversation. Feel free to connect with me through the platforms below:</p>
+      
+      <ul class="contact-info">
+        <li><strong>Email:</strong> <a href="mailto:shivamkr2708@gmail.com">shivamkr2708@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shivamkrtiwari" target="_blank">linkedin.com/in/shivamkrtiwari</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/builtbyshivam" target="_blank">github.com/builtbyshivam</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">← Scroll down</div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
